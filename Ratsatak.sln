@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratsatak.Api", "Ratsatak.Api\Ratsatak.Api.csproj", "{CACA332A-0DDC-4A6A-866E-E7F9860F619B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratsatak.Infrastructure", "Ratsatak.Infrastructure\Ratsatak.Infrastructure.csproj", "{67078165-B25A-4063-BCAA-D197ABD259EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratsatak.Contracts", "Ratsatak.Contracts\Ratsatak.Contracts.csproj", "{671685B1-36B3-4BC2-8CBA-07E0C844B890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratsatak.Application", "Ratsatak.Application\Ratsatak.Application.csproj", "{42183C64-B52E-461A-9A34-BEBA2DC2F183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratsatak.Domain", "Ratsatak.Domain\Ratsatak.Domain.csproj", "{08382441-999A-4D16-940B-D55206E285C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratsatak.Shared", "Ratsatak.Shared\Ratsatak.Shared.csproj", "{AD7C74D9-9F63-4E8A-A5D0-8F70F5D923D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratsatak.Tests", "Ratsatak.Tests\Ratsatak.Tests.csproj", "{A3D44DC0-10FC-4263-8B36-4C5155A59BC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{AAC8759E-B47D-4B77-B7F6-3E73818F5B2E}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CACA332A-0DDC-4A6A-866E-E7F9860F619B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CACA332A-0DDC-4A6A-866E-E7F9860F619B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CACA332A-0DDC-4A6A-866E-E7F9860F619B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CACA332A-0DDC-4A6A-866E-E7F9860F619B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67078165-B25A-4063-BCAA-D197ABD259EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67078165-B25A-4063-BCAA-D197ABD259EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67078165-B25A-4063-BCAA-D197ABD259EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67078165-B25A-4063-BCAA-D197ABD259EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{671685B1-36B3-4BC2-8CBA-07E0C844B890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671685B1-36B3-4BC2-8CBA-07E0C844B890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671685B1-36B3-4BC2-8CBA-07E0C844B890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671685B1-36B3-4BC2-8CBA-07E0C844B890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42183C64-B52E-461A-9A34-BEBA2DC2F183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42183C64-B52E-461A-9A34-BEBA2DC2F183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42183C64-B52E-461A-9A34-BEBA2DC2F183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42183C64-B52E-461A-9A34-BEBA2DC2F183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08382441-999A-4D16-940B-D55206E285C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08382441-999A-4D16-940B-D55206E285C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08382441-999A-4D16-940B-D55206E285C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08382441-999A-4D16-940B-D55206E285C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7C74D9-9F63-4E8A-A5D0-8F70F5D923D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7C74D9-9F63-4E8A-A5D0-8F70F5D923D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7C74D9-9F63-4E8A-A5D0-8F70F5D923D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7C74D9-9F63-4E8A-A5D0-8F70F5D923D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3D44DC0-10FC-4263-8B36-4C5155A59BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3D44DC0-10FC-4263-8B36-4C5155A59BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3D44DC0-10FC-4263-8B36-4C5155A59BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3D44DC0-10FC-4263-8B36-4C5155A59BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
